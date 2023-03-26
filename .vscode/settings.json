@@ -20,5 +20,8 @@
         "statusBar.border": "#ff3d00",
         "titleBar.border": "#ff3d00"
     },
-    "peacock.remoteColor": "#ff3d00"
+    "peacock.remoteColor": "#ff3d00",
+    "files.associations": {
+        "*.in": "cpp"
+    }
 }

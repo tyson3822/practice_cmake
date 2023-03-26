@@ -1,0 +1,11 @@
+#define Main_VERSION_MAJOR @Main_VERSION_MAJOR@
+#define Main_VERSION_MINOR @Main_VERSION_MINOR@
+#define Main_VERSION_PATCH @Main_VERSION_PATCH@
+
+#include <string>
+
+using namespace std;
+
+static string VersionToString() {
+    return to_string(Main_VERSION_MAJOR) + "." + to_string(Main_VERSION_MINOR) + "." + to_string(Main_VERSION_PATCH);
+}
